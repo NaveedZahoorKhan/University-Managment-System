@@ -6,16 +6,16 @@
 	<meta name=description content="">
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<title>Contact Us</title>
-        <script src="../bootstrap/js/jquery.min.js"></script>
-        <link href="../materialize/css/materialize.css" rel="stylesheet">
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <link href="materialize/css/materialize.css" rel="stylesheet">
         
-        <script src="../materialize/js/materialize.js"></script>
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="../stylesheet/css/bootstrap-material-design.min.css">
-        <script src="../script/js/material.js"></script>
-        <script src="../script/js/ripples.js"></script>
-        <link href="../stylesheet/icon.css" rel="stylesheet">
-        <script src="../bootstrap/js/bootstrap.js"></script>
+        <script src="materialize/js/materialize.js"></script>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet/css/bootstrap-material-design.min.css">
+        <script src="script/js/material.js"></script>
+        <script src="script/js/ripples.js"></script>
+        <link href="stylesheet/icon.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.js"></script>
         <style type="text/css" media="screen">
             
 
@@ -35,7 +35,7 @@
               </div>
               <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
-                    <li ><a href="../index.php">Home</a></li>
+                    <li ><a href="index.php">Home</a></li>
                   <li><a href="pages/faculty.php">Faculty</a></li>
                   <li class="dropdown">
                     <a href="#" data-target="#" class="dropdown-toggle active" data-toggle="dropdown">Contact US

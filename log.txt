@@ -140,3 +140,348 @@
 10-	41-	55-	Received rows: 1
 10-	41-	55-	1 	 admin 	 naveed 	 toor
 10-	41-	55-	Going to start session
+4-	36-	17-	Connected to data base
+4-	36-	17-	Selected Database
+4-	36-	17-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+4-	36-	17-	Successfully executed query
+4-	36-	18-	Received rows: 1
+4-	36-	18-	1 	 admin 	 naveed 	 toor
+4-	36-	18-	Going to start session
+4-	36-	18-	Values Received at Create Student: 
+4-	36-	18-	 
+4-	36-	18-	 
+4-	36-	18-	BSIT-13-F-125 	 Naveed 	 Zahoor 	 naveealikhan@gmail 	 1993-02-10 	 Fazal colony Bund Road Lahore 	 Punjab Pakistan 	 BSIT 	 21300
+4-	36-	18-	Executing Query
+4-	36-	18-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
+4-	36-	19-	Successfully inserted values
+9-	33-	6-	Connected to data base
+9-	33-	6-	Selected Database
+9-	33-	6-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	33-	6-	Successfully executed query
+9-	33-	6-	Received rows: 1
+9-	33-	7-	1 	 admin 	 naveed 	 toor
+9-	33-	7-	Going to start session
+9-	33-	7-	Cookies created
+9-	33-	27-	Connected to data base
+9-	33-	27-	Selected Database
+9-	33-	27-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	33-	27-	Successfully executed query
+9-	33-	27-	Received rows: 1
+9-	33-	27-	1 	 admin 	 naveed 	 toor
+9-	33-	27-	Going to start session
+9-	33-	27-	Cookies created
+9-	59-	13-	Connected to data base
+9-	59-	13-	Selected Database
+9-	59-	13-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	59-	13-	Successfully executed query
+9-	59-	13-	Received rows: 1
+9-	59-	13-	1 	 admin 	 naveed 	 toor
+9-	59-	13-	Going to start session
+9-	59-	13-	From banbyname
+9-	59-	33-	Connected to data base
+9-	59-	33-	Selected Database
+9-	59-	34-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	59-	34-	Successfully executed query
+9-	59-	34-	Received rows: 1
+9-	59-	34-	1 	 admin 	 naveed 	 toor
+9-	59-	34-	Going to start session
+9-	59-	34-	From banbyname
+10-	5-	55-	Connected to data base
+10-	5-	55-	Selected Database
+10-	5-	55-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	5-	55-	Successfully executed query
+10-	5-	55-	Received rows: 1
+10-	5-	55-	1 	 admin 	 naveed 	 toor
+10-	5-	55-	Going to start session
+10-	5-	55-	From banbyname
+10-	6-	39-	Connected to data base
+10-	6-	39-	Selected Database
+10-	6-	39-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	6-	39-	Successfully executed query
+10-	6-	39-	Received rows: 1
+10-	6-	39-	1 	 admin 	 naveed 	 toor
+10-	6-	39-	Going to start session
+10-	6-	39-	From banbyname
+10-	6-	41-	Connected to data base
+10-	6-	41-	Selected Database
+10-	6-	41-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	6-	41-	Successfully executed query
+10-	6-	41-	Received rows: 1
+10-	6-	41-	1 	 admin 	 naveed 	 toor
+10-	6-	41-	Going to start session
+10-	6-	42-	From banbyname
+10-	7-	6-	Connected to data base
+10-	7-	6-	Selected Database
+10-	7-	7-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	7-	7-	Successfully executed query
+10-	7-	7-	Received rows: 1
+10-	7-	7-	1 	 admin 	 naveed 	 toor
+10-	7-	7-	Going to start session
+10-	7-	7-	From banbyname
+10-	7-	49-	Connected to data base
+10-	7-	49-	Selected Database
+10-	7-	49-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	7-	49-	Successfully executed query
+10-	7-	49-	Received rows: 1
+10-	7-	49-	1 	 admin 	 naveed 	 toor
+10-	7-	49-	Going to start session
+10-	7-	49-	Executing Query : UPDATE `student` SET `active` = 0 WHERE name = Naveed
+10-	7-	49-	From banbyname
+10-	10-	21-	Connected to data base
+10-	10-	21-	Selected Database
+10-	10-	21-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	10-	21-	Successfully executed query
+10-	10-	21-	Received rows: 1
+10-	10-	21-	1 	 admin 	 naveed 	 toor
+10-	10-	21-	Going to start session
+10-	10-	22-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = Naveed
+10-	10-	22-	From banbyname
+10-	10-	23-	Connected to data base
+10-	10-	23-	Selected Database
+10-	10-	24-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	10-	24-	Successfully executed query
+10-	10-	24-	Received rows: 1
+10-	10-	24-	1 	 admin 	 naveed 	 toor
+10-	10-	24-	Going to start session
+10-	10-	24-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = Naveed
+10-	10-	24-	From banbyname
+10-	12-	4-	Connected to data base
+10-	12-	4-	Selected Database
+10-	12-	4-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	12-	4-	Successfully executed query
+10-	12-	4-	Received rows: 1
+10-	12-	4-	1 	 admin 	 naveed 	 toor
+10-	12-	5-	Going to start session
+10-	12-	5-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	12-	5-	1From banbyname
+10-	13-	43-	Connected to data base
+10-	13-	43-	Selected Database
+10-	13-	43-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	13-	43-	Successfully executed query
+10-	13-	43-	Received rows: 1
+10-	13-	43-	1 	 admin 	 naveed 	 toor
+10-	13-	43-	Going to start session
+10-	13-	43-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	13-	43-	1From banbyname
+10-	14-	43-	Connected to data base
+10-	14-	43-	Selected Database
+10-	14-	44-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	14-	44-	Successfully executed query
+10-	14-	44-	Received rows: 1
+10-	14-	44-	1 	 admin 	 naveed 	 toor
+10-	14-	44-	Going to start session
+10-	14-	44-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	14-	44-	1From banbyname
+10-	14-	58-	Connected to data base
+10-	14-	58-	Selected Database
+10-	14-	58-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	14-	58-	Successfully executed query
+10-	14-	58-	Received rows: 1
+10-	14-	58-	1 	 admin 	 naveed 	 toor
+10-	14-	58-	Going to start session
+10-	14-	58-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	14-	59-	1From banbyname
+10-	15-	12-	Connected to data base
+10-	15-	12-	Selected Database
+10-	15-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	15-	12-	Successfully executed query
+10-	15-	12-	Received rows: 1
+10-	15-	12-	1 	 admin 	 naveed 	 toor
+10-	15-	12-	Going to start session
+10-	15-	12-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	15-	12-	1From banbyname
+10-	15-	20-	Connected to data base
+10-	15-	20-	Selected Database
+10-	15-	20-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	15-	20-	Successfully executed query
+10-	15-	20-	Received rows: 1
+10-	15-	20-	1 	 admin 	 naveed 	 toor
+10-	15-	20-	Going to start session
+10-	15-	20-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	15-	21-	1From banbyname
+10-	15-	36-	Connected to data base
+10-	15-	36-	Selected Database
+10-	15-	36-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	15-	36-	Successfully executed query
+10-	15-	36-	Received rows: 1
+10-	15-	36-	1 	 admin 	 naveed 	 toor
+10-	15-	36-	Going to start session
+10-	15-	36-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	15-	36-	1From banbyname
+10-	15-	50-	Connected to data base
+10-	15-	50-	Selected Database
+10-	15-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	15-	50-	Successfully executed query
+10-	15-	50-	Received rows: 1
+10-	15-	50-	1 	 admin 	 naveed 	 toor
+10-	15-	50-	Going to start session
+10-	15-	50-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	15-	50-	1From banbyname
+10-	16-	3-	Connected to data base
+10-	16-	3-	Selected Database
+10-	16-	3-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	16-	3-	Successfully executed query
+10-	16-	3-	Received rows: 1
+10-	16-	3-	1 	 admin 	 naveed 	 toor
+10-	16-	3-	Going to start session
+10-	16-	3-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	16-	3-	1From banbyname
+10-	21-	46-	Connected to data base
+10-	21-	47-	Selected Database
+10-	21-	47-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	21-	47-	Successfully executed query
+10-	21-	47-	Received rows: 1
+10-	21-	47-	1 	 admin 	 naveed 	 toor
+10-	21-	47-	Going to start session
+10-	21-	47-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	21-	49-	1From banbyname
+10-	21-	56-	Connected to data base
+10-	21-	56-	Selected Database
+10-	21-	56-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	21-	56-	Successfully executed query
+10-	21-	56-	Received rows: 1
+10-	21-	56-	1 	 admin 	 naveed 	 toor
+10-	21-	56-	Going to start session
+10-	21-	56-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	21-	57-	1From banbyname
+10-	22-	50-	Connected to data base
+10-	22-	50-	Selected Database
+10-	22-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	22-	50-	Successfully executed query
+10-	22-	50-	Received rows: 1
+10-	22-	50-	1 	 admin 	 naveed 	 toor
+10-	22-	50-	Going to start session
+10-	22-	51-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	22-	51-	1From banbyname
+10-	22-	51-	Query executed successfully
+10-	23-	12-	Connected to data base
+10-	23-	12-	Selected Database
+10-	23-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	23-	12-	Successfully executed query
+10-	23-	12-	Received rows: 1
+10-	23-	13-	1 	 admin 	 naveed 	 toor
+10-	23-	13-	Going to start session
+10-	23-	13-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	23-	13-	1From banbyname
+10-	23-	13-	Query failed
+10-	24-	30-	Connected to data base
+10-	24-	30-	Selected Database
+10-	24-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	24-	30-	Successfully executed query
+10-	24-	30-	Received rows: 1
+10-	24-	30-	1 	 admin 	 naveed 	 toor
+10-	24-	30-	Going to start session
+10-	24-	30-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	24-	30-	1From banbyname
+10-	24-	30-	Query failed
+10-	25-	26-	Connected to data base
+10-	25-	26-	Selected Database
+10-	25-	26-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	25-	26-	Successfully executed query
+10-	25-	26-	Received rows: 1
+10-	25-	26-	1 	 admin 	 naveed 	 toor
+10-	25-	26-	Going to start session
+10-	25-	26-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	25-	27-	1From banbyname
+10-	25-	27-	Query Executed
+10-	25-	27-	Rows Effected 0
+10-	25-	40-	Connected to data base
+10-	25-	40-	Selected Database
+10-	25-	40-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	25-	40-	Successfully executed query
+10-	25-	40-	Received rows: 1
+10-	25-	40-	1 	 admin 	 naveed 	 toor
+10-	25-	40-	Going to start session
+10-	25-	40-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	25-	40-	1From banbyname
+10-	25-	40-	Query Executed
+10-	25-	40-	Rows Effected 0
+10-	26-	13-	Connected to data base
+10-	26-	13-	Selected Database
+10-	26-	13-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	26-	13-	Successfully executed query
+10-	26-	13-	Received rows: 1
+10-	26-	13-	1 	 admin 	 naveed 	 toor
+10-	26-	13-	Going to start session
+10-	26-	13-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	26-	13-	1From banbyname
+10-	26-	28-	Connected to data base
+10-	26-	28-	Selected Database
+10-	26-	28-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	26-	28-	Successfully executed query
+10-	26-	28-	Received rows: 1
+10-	26-	28-	1 	 admin 	 naveed 	 toor
+10-	26-	28-	Going to start session
+10-	26-	29-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	26-	29-	1 From banbyname
+10-	28-	38-	Connected to data base
+10-	28-	38-	Selected Database
+10-	28-	38-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	28-	38-	Successfully executed query
+10-	28-	38-	Received rows: 1
+10-	28-	38-	1 	 admin 	 naveed 	 toor
+10-	28-	38-	Going to start session
+10-	28-	38-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	28-	38-	1From banbyname
+10-	29-	15-	Connected to data base
+10-	29-	15-	Selected Database
+10-	29-	15-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	29-	16-	Successfully executed query
+10-	29-	16-	Received rows: 1
+10-	29-	16-	1 	 admin 	 naveed 	 toor
+10-	29-	16-	Going to start session
+10-	29-	16-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	29-	16-	1From banbyname
+10-	29-	41-	Connected to data base
+10-	29-	41-	Selected Database
+10-	29-	42-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	29-	42-	Successfully executed query
+10-	29-	42-	Received rows: 1
+10-	29-	42-	1 	 admin 	 naveed 	 toor
+10-	29-	42-	Going to start session
+10-	29-	42-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	29-	42-	1From banbyname
+10-	30-	17-	Connected to data base
+10-	30-	17-	Selected Database
+10-	30-	17-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	30-	17-	Successfully executed query
+10-	30-	17-	Received rows: 1
+10-	30-	17-	1 	 admin 	 naveed 	 toor
+10-	30-	17-	Going to start session
+10-	30-	18-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+10-	30-	18-	1From banbyname
+10-	30-	18-	Query Executed
+10-	30-	18-	Rows Effected 0
+11-	0-	32-	Connected to data base
+11-	0-	32-	Selected Database
+11-	0-	32-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+11-	0-	32-	Successfully executed query
+11-	0-	32-	Received rows: 1
+11-	0-	33-	1 	 admin 	 naveed 	 toor
+11-	0-	33-	Going to start session
+11-	0-	33-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+11-	0-	33-	1From banbyname
+11-	0-	33-	Query Executed
+11-	0-	33-	Rows Effected 2
+11-	0-	49-	Connected to data base
+11-	0-	49-	Selected Database
+11-	0-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+11-	0-	50-	Successfully executed query
+11-	0-	50-	Received rows: 1
+11-	0-	50-	1 	 admin 	 naveed 	 toor
+11-	0-	50-	Going to start session
+11-	0-	50-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+11-	0-	50-	1From banbyname
+11-	0-	50-	Query Executed
+11-	0-	50-	Rows Effected 0
+11-	32-	10-	Connected to data base
+11-	32-	10-	Selected Database
+11-	32-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+11-	32-	10-	Successfully executed query
+11-	32-	10-	Received rows: 1
+11-	32-	10-	1 	 admin 	 naveed 	 toor
+11-	32-	10-	Going to start session
+11-	32-	10-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
+11-	32-	10-	1From banbyname
+11-	32-	10-	Query Executed
+11-	32-	10-	Rows Effected 0

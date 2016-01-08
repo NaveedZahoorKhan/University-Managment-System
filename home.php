@@ -38,12 +38,13 @@ and open the template in the editor.
                     <h3>University Stats:</h3>
                 </div>
                 <div class="panel-body">
-                    <div class="panel panel-info col-md-4   ">                    
+                    <div class="panel panel-info col-md-4  pull-left ">                    
                         <div class="panel-heading">
-                            <h2>Student Info</h2>
+                            <h2 class="panel-title"><a data-toggle="collapse" href="#collapse1">Student Info</a></h2>
                             
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-collapse collapse in"  id="collapse1">
+                        <div class="panel-body ">
                             <br>
                             <h4>Entries today: <?php echo $num; ?></h4>
                            
@@ -51,16 +52,18 @@ and open the template in the editor.
                             <h4>Total Enteries in Database: <?php echo $num3; ?></h4>
                         </div>
                 </div>
-                    <div class="panel panel-info col-md-4" >
+                    </div>
+                    <div class="panel panel-info col-md-4 pull-right" >
                         <div class="panel-heading">
-                            <h2> Faculty Info:</h2>
+                            <h2 class="panel-title"><a data-toggle="collapse" href="#collapse2"> Faculty Info:</a></h2>
                         </div>
-                   
+                        <div class="panel-collapse collapse in"  id="collapse2">
                     <div class="panel-body">
                         <h4>Enteries Today: <?php echo $f1;?></h4>
                          <h4>Entries This Month: <?php echo $f2; ?></h4>
                             <h4>Total Enteries in Database: <?php echo $f3; ?></h4>
                     </div>
+                        </div>
                          </div>
                 </div>
        </div>

@@ -12,8 +12,10 @@ and open the template in the editor.
         <link href="stylesheet/SuperCSS.css" rel="stylesheet">
         
              <script src="bootstrap/js/jquery.min.js"></script>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="stylesheet/css/bootstrap-material-design.min.css">
+             <script src="bootstrap/js/bootstrap.js"></script>
+             
+             <link rel="stylesheet" href="stylesheet/css/bootstrap-material-design.min.css">
+        
         <script src="script/js/material.js"></script>
         <script src="script/js/ripples.js"></script>
         
@@ -30,6 +32,10 @@ and open the template in the editor.
                {
                   $("#loadhere").load("home.php"); 
                });
+               document.getElementById("banstud").addEventListener("click",function ()
+               {
+                   $("#loadhere").load("banstudent.php");
+               })
             });
             
         </script>
@@ -40,8 +46,8 @@ and open the template in the editor.
        
         
         <img class="img-responsive img-thumbnail bg-primary center-block"  src="image/logo.png" alt="" />
-        <br>
-        <div class="panel panel-default col-md-2 col-sm-3 left">
+        
+        <div class="panel panel-success  col-md-2 col-sm-2 col-xs-1 pull-left ">
             <div class="panel-heading">
                 Navigation
             </div>
@@ -50,16 +56,25 @@ and open the template in the editor.
                 <br>
                 <button class="btn btn-sm " id="new">New</button>
                 <br>
-                <button class="btn btn-sm" data-toggle="collapse" data-target="#collpase">Student</button>
-                
-                <ul id="demo" class="collapse">
-                        <li><button>Remove Student</button></li>
-                    </ul>
-             
+                <button class="btn btn-sm" data-toggle="collapse" data-target="#collapsed">Student</button>
+                <div id="collapsed" class="collapse">
+                    
+                        <button class="btn btn-sm">Remove Student</button>
+                        <button class="btn btn-sm" id="banstud">Ban Student</button>
+                    
+                </div>
+                <br>
+                <button class="btn btn-sm" data-toggle="collapse" data-target="#collapser">Faculty</button>
+                <div id="collapser" class="collapse">
+                    
+                        <button class="btn btn-sm">Remove Student</button>
+                        <button class="btn btn-sm">Ban Student</button>
+                    
+                </div>
             </div>
             
         </div>
-        <div class="col-md-9 jumbotron-success"id="loadhere">
+        <div class="col-md-9 col-sm-9 pull-right container-fluid"id="loadhere">
             
             
         </div>
