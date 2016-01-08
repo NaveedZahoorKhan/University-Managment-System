@@ -1,0 +1,142 @@
+3-	47-	33-	Connected to data base
+3-	47-	59-	Connected to data base
+3-	47-	59-	Selected Database
+3-	47-	59-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+3-	47-	59-	Successfully executed query
+3-	47-	59-	Received rows: 1
+3-	47-	59-	1 	 admin 	 naveed 	 toor
+3-	47-	59-	Going to start session
+3-	47-	59-	Cookies created
+3-	48-	31-	Connected to data base
+3-	48-	31-	Selected Database
+3-	48-	31-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+3-	48-	31-	Successfully executed query
+3-	48-	31-	Received rows: 1
+3-	48-	31-	1 	 admin 	 naveed 	 toor
+3-	48-	31-	Going to start session
+3-	50-	35-	Connected to data base
+3-	50-	35-	Selected Database
+3-	50-	35-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+3-	50-	35-	Successfully executed query
+3-	50-	35-	Received rows: 1
+3-	50-	35-	1 	 admin 	 naveed 	 toor
+3-	50-	35-	Going to start session
+3-	50-	35-	Cookies created
+4-	56-	58-	Connected to data base
+4-	56-	58-	Selected Database
+4-	56-	58-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+4-	56-	59-	Successfully executed query
+4-	56-	59-	Received rows: 1
+4-	56-	59-	1 	 admin 	 naveed 	 toor
+4-	56-	59-	Going to start session
+4-	57-	29-	Connected to data base
+4-	57-	29-	Selected Database
+4-	57-	29-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+4-	57-	29-	Successfully executed query
+4-	57-	29-	Received rows: 1
+4-	57-	29-	1 	 admin 	 naveed 	 toor
+4-	57-	29-	Going to start session
+5-	7-	38-	Connected to data base
+5-	7-	38-	Selected Database
+5-	7-	38-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	7-	38-	Successfully executed query
+5-	7-	38-	Received rows: 1
+5-	7-	38-	1 	 admin 	 naveed 	 toor
+5-	7-	38-	Going to start session
+5-	7-	38-	Values Received at Create Student: 
+5-	7-	38-	 
+5-	7-	38-	 
+5-	7-	38-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
+5-	10-	39-	Connected to data base
+5-	10-	39-	Selected Database
+5-	10-	39-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	10-	39-	Successfully executed query
+5-	10-	39-	Received rows: 1
+5-	10-	39-	1 	 admin 	 naveed 	 toor
+5-	10-	39-	Going to start session
+5-	10-	39-	Values Received at Create Student: 
+5-	10-	39-	 
+5-	10-	39-	 
+5-	10-	39-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
+5-	14-	15-	Connected to data base
+5-	14-	15-	Selected Database
+5-	14-	15-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	14-	15-	Successfully executed query
+5-	14-	15-	Received rows: 1
+5-	14-	15-	1 	 admin 	 naveed 	 toor
+5-	14-	15-	Going to start session
+5-	14-	15-	Values Received at Create Student: 
+5-	14-	15-	 
+5-	14-	15-	 
+5-	14-	15-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
+5-	15-	12-	Connected to data base
+5-	15-	12-	Selected Database
+5-	15-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	15-	12-	Successfully executed query
+5-	15-	12-	Received rows: 1
+5-	15-	12-	1 	 admin 	 naveed 	 toor
+5-	15-	13-	Going to start session
+5-	15-	13-	Values Received at Create Student: 
+5-	15-	13-	 
+5-	15-	13-	 
+5-	15-	13-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
+5-	15-	13-	Executing Query
+5-	15-	13-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
+5-	15-	13-	Failed to insert Values :(
+5-	29-	30-	Connected to data base
+5-	29-	30-	Selected Database
+5-	29-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	29-	30-	Successfully executed query
+5-	29-	30-	Received rows: 1
+5-	29-	30-	1 	 admin 	 naveed 	 toor
+5-	29-	30-	Going to start session
+5-	29-	30-	Values Received at Create Student: 
+5-	29-	30-	 
+5-	29-	30-	 
+5-	29-	30-	3 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2015-12-30 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 14
+5-	29-	30-	Executing Query
+5-	29-	30-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
+5-	29-	30-	Successfully inserted values
+5-	30-	10-	Connected to data base
+5-	30-	10-	Selected Database
+5-	30-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	30-	10-	Successfully executed query
+5-	30-	10-	Received rows: 1
+5-	30-	10-	1 	 admin 	 naveed 	 toor
+5-	30-	10-	Going to start session
+5-	30-	10-	Values Received at Create Student: 
+5-	30-	10-	 
+5-	30-	10-	 
+5-	30-	10-	8 	 faslfjk 	 alskfjla;ks 	 jfaslkd@sakldfj.com 	 2017-03-02 	 a;gjas;lkjf 	 ;sdjfalskfjka 	 lksjf;alskj 	 31
+5-	30-	10-	Executing Query
+5-	30-	10-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
+5-	30-	10-	Successfully inserted values
+5-	30-	52-	Connected to data base
+5-	30-	52-	Selected Database
+5-	30-	52-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	30-	52-	Successfully executed query
+5-	30-	52-	Received rows: 1
+5-	30-	53-	1 	 admin 	 naveed 	 toor
+5-	30-	53-	Going to start session
+5-	30-	53-	Values Received at Create Student: 
+5-	30-	53-	 
+5-	30-	53-	 
+5-	30-	53-	2 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2010-10-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsdf 	 27
+5-	30-	53-	Executing Query
+5-	30-	53-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
+5-	30-	53-	Successfully inserted values
+10-	38-	55-	Connected to data base
+10-	38-	56-	Selected Database
+10-	38-	56-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	38-	56-	Successfully executed query
+10-	38-	56-	Received rows: 1
+10-	38-	56-	1 	 admin 	 naveed 	 toor
+10-	38-	57-	Going to start session
+10-	38-	57-	Cookies created
+10-	41-	54-	Connected to data base
+10-	41-	54-	Selected Database
+10-	41-	54-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	41-	54-	Successfully executed query
+10-	41-	55-	Received rows: 1
+10-	41-	55-	1 	 admin 	 naveed 	 toor
+10-	41-	55-	Going to start session

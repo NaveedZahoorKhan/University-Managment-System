@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Courses</title>
+	<link rel="stylesheet" type="text/css" href=".\bootstrap\css\bootstrap-theme.css">
+	<link rel="stylesheet" href=".\bootstrap\css\bootstrap.css">
+	<script src=".\bootstrap\js\jquery.min.js"></script>	
+	<script src=".\bootstrap\js\bootstrap.js"></script>
+	<link rel="icon" href=".\image\BZU-logo.jpg">
+	<script>
+	function showfield(str)
+	{
+		if (str == "") {
+        document.getElementById("fillhere1").innerHTML = "Your info will be here";
+        return;
+    } else { 
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("fillhere1").innerHTML = xmlhttp.responseText;
+           
+            }
+        }
+        xmlhttp.open("GET","getcourses.php?q="+str,true);
+        xmlhttp.send();
+    }
+	}
+
+	</script>
+	</head>
+	<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+    	<div class="navbar-header">
+    		<a href="#" class="navbar-brand">Bahaudin Zakariya University</a>
+    	</div>
+<div>
+    <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li><!--
+     --><li class="active"><a href="#">Courses</a></li><!--
+     --><li><a href="acheivements.html">Acheivements</a></li><!--
+     --><li class="dropdown">
+     <a class="dropdown-toggle" data-toggle="dropdown" href="contact.html">Contact
+     <span class="caret"></span></a>
+     <ul class="dropdown-menu">
+     	<li><a href="aboutus.html">About Us</a></li>
+     </ul>
+     </li>
+     <li><a href="gallery.html">Gallery</a></li>
+	<li><a href="#" >Welcome	 <?php echo $_SESSION["name"]; ?> </a></li>
+    
+    </ul>
+    </div>
+    </div>
+</nav>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<div class="panel panel-default">
+<div class="panel panel-heading">
+	<h3> Select Area of Interest: </h3>
+</div>
+<div class="panel panel-body">
+<form>
+
+<select name="int" onchange="showfield(this.value)">
+	<option value="">Interest</option>
+	<option value="computing">Computing</option>
+	<option value="eng">Engeenering</option>}
+	
+
+</select>
+</form>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div  id="fillhere1">
+	<div class="panel panel-default">
+		<div class="panel panel-heading">
+			<h3>Select a Level : </h3>
+		</div>
+	<div class="panel panel-body">
+		<select class="list-group">
+			<option value="" class="list-group-item disabled">==============</option>}
+			
+		</select>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+<hr>
+
+	<div>
+		<?php  echo "Hello World";
+		 ?>
+		 <h1>Hello World</h1>
+	</div>
+	<hr>
+<div class="panel-primary" style="border-top:black;">
+	<div class="container-fluid">
+	<div class="panel-header">
+		
+	</div>
+	<div class="row">
+	<div class="col-sm-2">
+		
+	
+		Social
+		<ul class="list-group">
+		    <li class="list-group-item"><a href=""><span class="social social-facebook"></span> Facebook</a></li>
+		    <li class="list-group-item"><a href="">Google</a></li>
+		    <li class="list-group-item"><a href="">Twitter</a></li>
+		    <li class="list-group-item"><a href="">Instagram</a></li>
+		</ul>
+		</div>
+		
+		<div class="col-sm-4">
+			
+		
+		Campus #1
+		<ul class="list-group">
+		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> Garden Town - Lahore Punjab Pakistan</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"> (092) 042 - 23342524</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-envelope	"> info@bzulahore.edu.pk</span></li>
+		    
+		</ul>
+		</div>
+		<div class="col-sm-3">
+			Campus #2
+			<ul class="list-group">
+		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> Kot Lakhpat - Lahore Punjab Pakistan	</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"> (092) 042 - 23342524</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-envelope	"> info@bzulahore.edu.pk</span></li>
+		    
+		</ul>
+		</div>
+		<div class="col-sm-3">
+		<div class="list-group">
+			Careers
+			<ul class="list-group">
+				<li class="list-group-item"><span class="glyphicon glyphicon-certificate"><a href="hr@bzulahore.edu.pk"> 	Drop your cv</a></span> </li>
+				<li class="list-group-item"><span class="glyphicon glyphicon-king"><a href=""> Vacancies</a></span></li>
+
+
+			</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+<div class="panel-footer">
+	All rights reserved. Copyright <span class="glyphicon glyphicon-copyright-mark"></span> Naveed Zahoor.
+</div>
+</div>
+</body>
+</html>
