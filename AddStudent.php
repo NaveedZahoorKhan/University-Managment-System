@@ -13,14 +13,42 @@ and open the template in the editor.
         
     </head>
     <body >
-        
+        <?php
+        $alpha = "abcdefghijklmnopqrstuvwxyz";
+$alpha_upper = strtoupper($alpha);
+$numeric = "0123456789";
+$special = ".-+=_,!@$#*%<>[]{}";
+$chars = "";
+  $chars .= $alpha;
+     
+     $chars .= $alpha_upper;
+     
+      $chars .= $numeric;
+     
+       $chars .= $special;
+     
+   
+    // default [a-zA-Z0-9]{9}
+    $chars = $alpha . $alpha_upper . $numeric;
+    $length = 9;
+
+ 
+$len = strlen($chars);
+$pw = '';
+ 
+for ($i=0;$i<$length;$i++)
+        $pw .= substr($chars, rand(0, $len-1), 1);
+ 
+// the finished password
+$pw = str_shuffle($pw);
+        ?>
         <div class="panel panel-default">
             <div class="panel-heading">
                 New Entry form
             </div>
             <div class="panel-body">
                 <div class="center-block col-sm-6" style="margin-left: 30px">
-                <form class="form-horizontal" action="getVals.php" method="post" contextmenu="Form for entering new Data">
+                    <form class="form-horizontal" action="getVals.php" method="post" enctype="multipart/form-data" contextmenu="Form for entering new Data">
                     
                     <div class="form-group ">
                        
@@ -42,9 +70,16 @@ and open the template in the editor.
                     <input type="text" class="text-justify form-control" name="addressl1" placeholder="Address Line 1" required="required">
 
                     </div>
+                        
                     <div class="form-group">
-                    <input type="text" class="form-control form-control" name="addressl2" placeholder="Address Line 2" >
+                    <input type="text" class="form-control" name="addressl2" placeholder="Address Line 2" >
                     </div>
+                        <div class="form-group">
+                            <input type="text" class="text-justify form-control" name="password"  value="<?= $pw ?>" >
+                        </div>
+                        <div class="form-group">
+                            <label>Browse<input type="file" name="filer" class=""></label>
+                        </div>
                     <label class="control-label col-sm-3" for="choice">Choose a type:</label>
                     <br>
 
