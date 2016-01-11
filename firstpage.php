@@ -36,6 +36,26 @@ and open the template in the editor.
                {
                    $("#loadhere").load("banstudent.php");
                })
+               document.getElementById("delstud").addEventListener("click",function ()
+               {
+                   $("#loadhere").load("delstudent.php");
+               })
+               document.getElementById("banfac").addEventListener("click",function (){
+                   $("#loadhere").load("facultyban.php");
+               })
+               document.getElementById("remfac").addEventListener("click",function (){
+                   $("#loadhere").load("dlefac.php");
+               })
+               document.getElementById("changename").addEventListener("click",function (){
+                   $("#loadhere").load("changename.html");
+               })
+               document.getElementById("showstudents").addEventListener("click",function ()
+               {
+                   $("#loadhere").load("showsdb.php");
+               })
+               document.getElementById("showfac").addEventListener("click",function (){
+                   $("#loadhere").load("showfdb.php");
+               })
             });
             
         </script>
@@ -59,17 +79,24 @@ and open the template in the editor.
                 <button class="btn btn-sm" data-toggle="collapse" data-target="#collapsed">Student</button>
                 <div id="collapsed" class="collapse">
                     
-                        <button class="btn btn-sm">Remove Student</button>
+                    <button class="btn btn-sm" id="delstud">Remove Student</button>
                         <button class="btn btn-sm" id="banstud">Ban Student</button>
-                    
+                        <button class="btn btn-sm" id="showstudents">Show Database</button>
                 </div>
                 <br>
                 <button class="btn btn-sm" data-toggle="collapse" data-target="#collapser">Faculty</button>
                 <div id="collapser" class="collapse">
                     
-                        <button class="btn btn-sm">Remove Student</button>
-                        <button class="btn btn-sm">Ban Student</button>
+                    <button class="btn btn-sm" id="remfac">Remove Faculty</button>
+                    <button class="btn btn-sm" id="banfac">Ban Faculty</button>
+                    <button class="btn btn-sm" id="showfac">Show Database</button>
                     
+                </div>
+                <br>
+                <button class="btn btn-sm" data-toggle="collapse" data-target="#collpase3">Settings</button>
+                <div id="collpase3" class="collapse">
+                    <button class="btn btn-sm" id="changename">Change Settings</button>
+                   
                 </div>
             </div>
             

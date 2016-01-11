@@ -36,13 +36,13 @@
               <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li ><a href="index.php">Home</a></li>
-                  <li><a href="pages/faculty.php">Faculty</a></li>
+                  <li><a href="fac.php">Faculty</a></li>
                   <li class="dropdown">
                     <a href="#" data-target="#" class="dropdown-toggle active" data-toggle="dropdown">Contact US
                       <b class="caret"></b></a>
                     <ul class="dropdown-menu active">
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="pages/aboutus.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -81,10 +81,10 @@
         
         
         <div class="container-fluid" style="margin-top: 80px">
-<div class="jumbotron">
+        <div class="jumbotron">
 
 		
-<form role="form" method="post" action="data.php">
+        <form role="form" method="post" action="<?php $_PHP ?>">
 		<div class="form-group">
                     <div class="row"> 
 		<div class="input-field col s6">

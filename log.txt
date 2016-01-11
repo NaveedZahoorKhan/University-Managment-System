@@ -1,487 +1,197 @@
-3-	47-	33-	Connected to data base
-3-	47-	59-	Connected to data base
-3-	47-	59-	Selected Database
-3-	47-	59-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-3-	47-	59-	Successfully executed query
-3-	47-	59-	Received rows: 1
-3-	47-	59-	1 	 admin 	 naveed 	 toor
-3-	47-	59-	Going to start session
-3-	47-	59-	Cookies created
-3-	48-	31-	Connected to data base
-3-	48-	31-	Selected Database
-3-	48-	31-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-3-	48-	31-	Successfully executed query
-3-	48-	31-	Received rows: 1
-3-	48-	31-	1 	 admin 	 naveed 	 toor
-3-	48-	31-	Going to start session
-3-	50-	35-	Connected to data base
-3-	50-	35-	Selected Database
-3-	50-	35-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-3-	50-	35-	Successfully executed query
-3-	50-	35-	Received rows: 1
-3-	50-	35-	1 	 admin 	 naveed 	 toor
-3-	50-	35-	Going to start session
-3-	50-	35-	Cookies created
-4-	56-	58-	Connected to data base
-4-	56-	58-	Selected Database
-4-	56-	58-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-4-	56-	59-	Successfully executed query
-4-	56-	59-	Received rows: 1
-4-	56-	59-	1 	 admin 	 naveed 	 toor
-4-	56-	59-	Going to start session
-4-	57-	29-	Connected to data base
-4-	57-	29-	Selected Database
-4-	57-	29-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-4-	57-	29-	Successfully executed query
-4-	57-	29-	Received rows: 1
-4-	57-	29-	1 	 admin 	 naveed 	 toor
-4-	57-	29-	Going to start session
-5-	7-	38-	Connected to data base
-5-	7-	38-	Selected Database
-5-	7-	38-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	7-	38-	Successfully executed query
-5-	7-	38-	Received rows: 1
-5-	7-	38-	1 	 admin 	 naveed 	 toor
-5-	7-	38-	Going to start session
-5-	7-	38-	Values Received at Create Student: 
-5-	7-	38-	 
-5-	7-	38-	 
-5-	7-	38-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
-5-	10-	39-	Connected to data base
-5-	10-	39-	Selected Database
-5-	10-	39-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	10-	39-	Successfully executed query
-5-	10-	39-	Received rows: 1
-5-	10-	39-	1 	 admin 	 naveed 	 toor
-5-	10-	39-	Going to start session
-5-	10-	39-	Values Received at Create Student: 
-5-	10-	39-	 
-5-	10-	39-	 
-5-	10-	39-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
-5-	14-	15-	Connected to data base
-5-	14-	15-	Selected Database
-5-	14-	15-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	14-	15-	Successfully executed query
-5-	14-	15-	Received rows: 1
-5-	14-	15-	1 	 admin 	 naveed 	 toor
-5-	14-	15-	Going to start session
-5-	14-	15-	Values Received at Create Student: 
-5-	14-	15-	 
-5-	14-	15-	 
-5-	14-	15-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
-5-	15-	12-	Connected to data base
-5-	15-	12-	Selected Database
-5-	15-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	15-	12-	Successfully executed query
-5-	15-	12-	Received rows: 1
-5-	15-	12-	1 	 admin 	 naveed 	 toor
-5-	15-	13-	Going to start session
-5-	15-	13-	Values Received at Create Student: 
-5-	15-	13-	 
-5-	15-	13-	 
-5-	15-	13-	5 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2013-11-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 21
-5-	15-	13-	Executing Query
-5-	15-	13-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
-5-	15-	13-	Failed to insert Values :(
-5-	29-	30-	Connected to data base
-5-	29-	30-	Selected Database
-5-	29-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	29-	30-	Successfully executed query
-5-	29-	30-	Received rows: 1
-5-	29-	30-	1 	 admin 	 naveed 	 toor
-5-	29-	30-	Going to start session
-5-	29-	30-	Values Received at Create Student: 
-5-	29-	30-	 
-5-	29-	30-	 
-5-	29-	30-	3 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2015-12-30 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsit 	 14
-5-	29-	30-	Executing Query
-5-	29-	30-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
-5-	29-	30-	Successfully inserted values
-5-	30-	10-	Connected to data base
-5-	30-	10-	Selected Database
-5-	30-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	30-	10-	Successfully executed query
-5-	30-	10-	Received rows: 1
-5-	30-	10-	1 	 admin 	 naveed 	 toor
-5-	30-	10-	Going to start session
-5-	30-	10-	Values Received at Create Student: 
-5-	30-	10-	 
-5-	30-	10-	 
-5-	30-	10-	8 	 faslfjk 	 alskfjla;ks 	 jfaslkd@sakldfj.com 	 2017-03-02 	 a;gjas;lkjf 	 ;sdjfalskfjka 	 lksjf;alskj 	 31
-5-	30-	10-	Executing Query
-5-	30-	10-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
-5-	30-	10-	Successfully inserted values
-5-	30-	52-	Connected to data base
-5-	30-	52-	Selected Database
-5-	30-	52-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-5-	30-	52-	Successfully executed query
-5-	30-	52-	Received rows: 1
-5-	30-	53-	1 	 admin 	 naveed 	 toor
-5-	30-	53-	Going to start session
-5-	30-	53-	Values Received at Create Student: 
-5-	30-	53-	 
-5-	30-	53-	 
-5-	30-	53-	2 	 Naveed 	 Zahoor 	 waheedkhan37100@gmail.com 	 2010-10-28 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsdf 	 27
-5-	30-	53-	Executing Query
-5-	30-	53-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
-5-	30-	53-	Successfully inserted values
-10-	38-	55-	Connected to data base
-10-	38-	56-	Selected Database
-10-	38-	56-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	38-	56-	Successfully executed query
-10-	38-	56-	Received rows: 1
-10-	38-	56-	1 	 admin 	 naveed 	 toor
-10-	38-	57-	Going to start session
-10-	38-	57-	Cookies created
-10-	41-	54-	Connected to data base
-10-	41-	54-	Selected Database
-10-	41-	54-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	41-	54-	Successfully executed query
-10-	41-	55-	Received rows: 1
-10-	41-	55-	1 	 admin 	 naveed 	 toor
-10-	41-	55-	Going to start session
-4-	36-	17-	Connected to data base
-4-	36-	17-	Selected Database
-4-	36-	17-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-4-	36-	17-	Successfully executed query
-4-	36-	18-	Received rows: 1
-4-	36-	18-	1 	 admin 	 naveed 	 toor
-4-	36-	18-	Going to start session
-4-	36-	18-	Values Received at Create Student: 
-4-	36-	18-	 
-4-	36-	18-	 
-4-	36-	18-	BSIT-13-F-125 	 Naveed 	 Zahoor 	 naveealikhan@gmail 	 1993-02-10 	 Fazal colony Bund Road Lahore 	 Punjab Pakistan 	 BSIT 	 21300
-4-	36-	18-	Executing Query
-4-	36-	18-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob) VALUES (?,?,?,?,?,?,?,?,?)
-4-	36-	19-	Successfully inserted values
-9-	33-	6-	Connected to data base
-9-	33-	6-	Selected Database
-9-	33-	6-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-9-	33-	6-	Successfully executed query
-9-	33-	6-	Received rows: 1
-9-	33-	7-	1 	 admin 	 naveed 	 toor
-9-	33-	7-	Going to start session
-9-	33-	7-	Cookies created
-9-	33-	27-	Connected to data base
-9-	33-	27-	Selected Database
-9-	33-	27-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-9-	33-	27-	Successfully executed query
-9-	33-	27-	Received rows: 1
-9-	33-	27-	1 	 admin 	 naveed 	 toor
-9-	33-	27-	Going to start session
-9-	33-	27-	Cookies created
-9-	59-	13-	Connected to data base
-9-	59-	13-	Selected Database
-9-	59-	13-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-9-	59-	13-	Successfully executed query
-9-	59-	13-	Received rows: 1
-9-	59-	13-	1 	 admin 	 naveed 	 toor
-9-	59-	13-	Going to start session
-9-	59-	13-	From banbyname
-9-	59-	33-	Connected to data base
-9-	59-	33-	Selected Database
-9-	59-	34-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-9-	59-	34-	Successfully executed query
-9-	59-	34-	Received rows: 1
-9-	59-	34-	1 	 admin 	 naveed 	 toor
-9-	59-	34-	Going to start session
-9-	59-	34-	From banbyname
-10-	5-	55-	Connected to data base
-10-	5-	55-	Selected Database
-10-	5-	55-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	5-	55-	Successfully executed query
-10-	5-	55-	Received rows: 1
-10-	5-	55-	1 	 admin 	 naveed 	 toor
-10-	5-	55-	Going to start session
-10-	5-	55-	From banbyname
-10-	6-	39-	Connected to data base
-10-	6-	39-	Selected Database
-10-	6-	39-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	6-	39-	Successfully executed query
-10-	6-	39-	Received rows: 1
-10-	6-	39-	1 	 admin 	 naveed 	 toor
-10-	6-	39-	Going to start session
-10-	6-	39-	From banbyname
-10-	6-	41-	Connected to data base
-10-	6-	41-	Selected Database
-10-	6-	41-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	6-	41-	Successfully executed query
-10-	6-	41-	Received rows: 1
-10-	6-	41-	1 	 admin 	 naveed 	 toor
-10-	6-	41-	Going to start session
-10-	6-	42-	From banbyname
-10-	7-	6-	Connected to data base
-10-	7-	6-	Selected Database
-10-	7-	7-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	7-	7-	Successfully executed query
-10-	7-	7-	Received rows: 1
-10-	7-	7-	1 	 admin 	 naveed 	 toor
-10-	7-	7-	Going to start session
-10-	7-	7-	From banbyname
-10-	7-	49-	Connected to data base
-10-	7-	49-	Selected Database
-10-	7-	49-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	7-	49-	Successfully executed query
-10-	7-	49-	Received rows: 1
-10-	7-	49-	1 	 admin 	 naveed 	 toor
-10-	7-	49-	Going to start session
-10-	7-	49-	Executing Query : UPDATE `student` SET `active` = 0 WHERE name = Naveed
-10-	7-	49-	From banbyname
-10-	10-	21-	Connected to data base
-10-	10-	21-	Selected Database
-10-	10-	21-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	10-	21-	Successfully executed query
-10-	10-	21-	Received rows: 1
-10-	10-	21-	1 	 admin 	 naveed 	 toor
-10-	10-	21-	Going to start session
-10-	10-	22-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = Naveed
-10-	10-	22-	From banbyname
-10-	10-	23-	Connected to data base
-10-	10-	23-	Selected Database
-10-	10-	24-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	10-	24-	Successfully executed query
-10-	10-	24-	Received rows: 1
-10-	10-	24-	1 	 admin 	 naveed 	 toor
-10-	10-	24-	Going to start session
-10-	10-	24-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = Naveed
-10-	10-	24-	From banbyname
-10-	12-	4-	Connected to data base
-10-	12-	4-	Selected Database
-10-	12-	4-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	12-	4-	Successfully executed query
-10-	12-	4-	Received rows: 1
-10-	12-	4-	1 	 admin 	 naveed 	 toor
-10-	12-	5-	Going to start session
-10-	12-	5-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	12-	5-	1From banbyname
-10-	13-	43-	Connected to data base
-10-	13-	43-	Selected Database
-10-	13-	43-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	13-	43-	Successfully executed query
-10-	13-	43-	Received rows: 1
-10-	13-	43-	1 	 admin 	 naveed 	 toor
-10-	13-	43-	Going to start session
-10-	13-	43-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	13-	43-	1From banbyname
-10-	14-	43-	Connected to data base
-10-	14-	43-	Selected Database
-10-	14-	44-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	14-	44-	Successfully executed query
-10-	14-	44-	Received rows: 1
-10-	14-	44-	1 	 admin 	 naveed 	 toor
-10-	14-	44-	Going to start session
-10-	14-	44-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	14-	44-	1From banbyname
-10-	14-	58-	Connected to data base
-10-	14-	58-	Selected Database
-10-	14-	58-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	14-	58-	Successfully executed query
-10-	14-	58-	Received rows: 1
-10-	14-	58-	1 	 admin 	 naveed 	 toor
-10-	14-	58-	Going to start session
-10-	14-	58-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	14-	59-	1From banbyname
-10-	15-	12-	Connected to data base
-10-	15-	12-	Selected Database
-10-	15-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	15-	12-	Successfully executed query
-10-	15-	12-	Received rows: 1
-10-	15-	12-	1 	 admin 	 naveed 	 toor
-10-	15-	12-	Going to start session
-10-	15-	12-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	15-	12-	1From banbyname
-10-	15-	20-	Connected to data base
-10-	15-	20-	Selected Database
-10-	15-	20-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	15-	20-	Successfully executed query
-10-	15-	20-	Received rows: 1
-10-	15-	20-	1 	 admin 	 naveed 	 toor
-10-	15-	20-	Going to start session
-10-	15-	20-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	15-	21-	1From banbyname
-10-	15-	36-	Connected to data base
-10-	15-	36-	Selected Database
-10-	15-	36-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	15-	36-	Successfully executed query
-10-	15-	36-	Received rows: 1
-10-	15-	36-	1 	 admin 	 naveed 	 toor
-10-	15-	36-	Going to start session
-10-	15-	36-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	15-	36-	1From banbyname
-10-	15-	50-	Connected to data base
-10-	15-	50-	Selected Database
-10-	15-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	15-	50-	Successfully executed query
-10-	15-	50-	Received rows: 1
-10-	15-	50-	1 	 admin 	 naveed 	 toor
-10-	15-	50-	Going to start session
-10-	15-	50-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	15-	50-	1From banbyname
-10-	16-	3-	Connected to data base
-10-	16-	3-	Selected Database
-10-	16-	3-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	16-	3-	Successfully executed query
-10-	16-	3-	Received rows: 1
-10-	16-	3-	1 	 admin 	 naveed 	 toor
-10-	16-	3-	Going to start session
-10-	16-	3-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	16-	3-	1From banbyname
-10-	21-	46-	Connected to data base
-10-	21-	47-	Selected Database
-10-	21-	47-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	21-	47-	Successfully executed query
-10-	21-	47-	Received rows: 1
-10-	21-	47-	1 	 admin 	 naveed 	 toor
-10-	21-	47-	Going to start session
-10-	21-	47-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	21-	49-	1From banbyname
-10-	21-	56-	Connected to data base
-10-	21-	56-	Selected Database
-10-	21-	56-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	21-	56-	Successfully executed query
-10-	21-	56-	Received rows: 1
-10-	21-	56-	1 	 admin 	 naveed 	 toor
-10-	21-	56-	Going to start session
-10-	21-	56-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	21-	57-	1From banbyname
-10-	22-	50-	Connected to data base
-10-	22-	50-	Selected Database
-10-	22-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	22-	50-	Successfully executed query
-10-	22-	50-	Received rows: 1
-10-	22-	50-	1 	 admin 	 naveed 	 toor
-10-	22-	50-	Going to start session
-10-	22-	51-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	22-	51-	1From banbyname
-10-	22-	51-	Query executed successfully
-10-	23-	12-	Connected to data base
-10-	23-	12-	Selected Database
-10-	23-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	23-	12-	Successfully executed query
-10-	23-	12-	Received rows: 1
-10-	23-	13-	1 	 admin 	 naveed 	 toor
-10-	23-	13-	Going to start session
-10-	23-	13-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	23-	13-	1From banbyname
-10-	23-	13-	Query failed
-10-	24-	30-	Connected to data base
-10-	24-	30-	Selected Database
-10-	24-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	24-	30-	Successfully executed query
-10-	24-	30-	Received rows: 1
-10-	24-	30-	1 	 admin 	 naveed 	 toor
-10-	24-	30-	Going to start session
-10-	24-	30-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	24-	30-	1From banbyname
-10-	24-	30-	Query failed
-10-	25-	26-	Connected to data base
-10-	25-	26-	Selected Database
-10-	25-	26-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	25-	26-	Successfully executed query
-10-	25-	26-	Received rows: 1
-10-	25-	26-	1 	 admin 	 naveed 	 toor
-10-	25-	26-	Going to start session
-10-	25-	26-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	25-	27-	1From banbyname
-10-	25-	27-	Query Executed
-10-	25-	27-	Rows Effected 0
-10-	25-	40-	Connected to data base
-10-	25-	40-	Selected Database
-10-	25-	40-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	25-	40-	Successfully executed query
-10-	25-	40-	Received rows: 1
-10-	25-	40-	1 	 admin 	 naveed 	 toor
-10-	25-	40-	Going to start session
-10-	25-	40-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	25-	40-	1From banbyname
-10-	25-	40-	Query Executed
-10-	25-	40-	Rows Effected 0
-10-	26-	13-	Connected to data base
-10-	26-	13-	Selected Database
-10-	26-	13-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	26-	13-	Successfully executed query
-10-	26-	13-	Received rows: 1
-10-	26-	13-	1 	 admin 	 naveed 	 toor
-10-	26-	13-	Going to start session
-10-	26-	13-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	26-	13-	1From banbyname
-10-	26-	28-	Connected to data base
-10-	26-	28-	Selected Database
-10-	26-	28-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	26-	28-	Successfully executed query
-10-	26-	28-	Received rows: 1
-10-	26-	28-	1 	 admin 	 naveed 	 toor
-10-	26-	28-	Going to start session
-10-	26-	29-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	26-	29-	1 From banbyname
-10-	28-	38-	Connected to data base
-10-	28-	38-	Selected Database
-10-	28-	38-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	28-	38-	Successfully executed query
-10-	28-	38-	Received rows: 1
-10-	28-	38-	1 	 admin 	 naveed 	 toor
-10-	28-	38-	Going to start session
-10-	28-	38-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	28-	38-	1From banbyname
-10-	29-	15-	Connected to data base
-10-	29-	15-	Selected Database
-10-	29-	15-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	29-	16-	Successfully executed query
-10-	29-	16-	Received rows: 1
-10-	29-	16-	1 	 admin 	 naveed 	 toor
-10-	29-	16-	Going to start session
-10-	29-	16-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	29-	16-	1From banbyname
-10-	29-	41-	Connected to data base
-10-	29-	41-	Selected Database
-10-	29-	42-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	29-	42-	Successfully executed query
-10-	29-	42-	Received rows: 1
-10-	29-	42-	1 	 admin 	 naveed 	 toor
-10-	29-	42-	Going to start session
-10-	29-	42-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	29-	42-	1From banbyname
-10-	30-	17-	Connected to data base
-10-	30-	17-	Selected Database
-10-	30-	17-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-10-	30-	17-	Successfully executed query
-10-	30-	17-	Received rows: 1
-10-	30-	17-	1 	 admin 	 naveed 	 toor
-10-	30-	17-	Going to start session
-10-	30-	18-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-10-	30-	18-	1From banbyname
-10-	30-	18-	Query Executed
-10-	30-	18-	Rows Effected 0
-11-	0-	32-	Connected to data base
-11-	0-	32-	Selected Database
-11-	0-	32-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-11-	0-	32-	Successfully executed query
-11-	0-	32-	Received rows: 1
-11-	0-	33-	1 	 admin 	 naveed 	 toor
-11-	0-	33-	Going to start session
-11-	0-	33-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-11-	0-	33-	1From banbyname
-11-	0-	33-	Query Executed
-11-	0-	33-	Rows Effected 2
-11-	0-	49-	Connected to data base
-11-	0-	49-	Selected Database
-11-	0-	50-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-11-	0-	50-	Successfully executed query
-11-	0-	50-	Received rows: 1
-11-	0-	50-	1 	 admin 	 naveed 	 toor
-11-	0-	50-	Going to start session
-11-	0-	50-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-11-	0-	50-	1From banbyname
-11-	0-	50-	Query Executed
-11-	0-	50-	Rows Effected 0
-11-	32-	10-	Connected to data base
-11-	32-	10-	Selected Database
-11-	32-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
-11-	32-	10-	Successfully executed query
-11-	32-	10-	Received rows: 1
-11-	32-	10-	1 	 admin 	 naveed 	 toor
-11-	32-	10-	Going to start session
-11-	32-	10-	Executing Query : UPDATE `student` SET `active` = 0 WHERE `name` = "Naveed"
-11-	32-	10-	1From banbyname
-11-	32-	10-	Query Executed
-11-	32-	10-	Rows Effected 0
+9-	22-	49-	Connected to data base
+9-	22-	49-	Selected Database
+9-	22-	49-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	22-	49-	Successfully executed query
+9-	22-	49-	Received rows: 1
+9-	22-	49-	1 	 admin 	 Ali 	 toor
+9-	22-	49-	Going to start session
+9-	22-	49-	Session Already found
+9-	24-	40-	Connected to data base
+9-	24-	40-	Selected Database
+9-	24-	40-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	24-	40-	Successfully executed query
+9-	24-	40-	Received rows: 1
+9-	24-	40-	1 	 admin 	 Ali 	 toor
+9-	24-	40-	Going to start session
+9-	24-	40-	Session Already found
+9-	25-	58-	Connected to data base
+9-	25-	58-	Selected Database
+9-	25-	58-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	25-	58-	Successfully executed query
+9-	25-	58-	Received rows: 1
+9-	25-	58-	1 	 admin 	 Ali 	 toor
+9-	25-	58-	Going to start session
+9-	25-	58-	Session Already found
+9-	29-	34-	Connected to data base
+9-	29-	34-	Selected Database
+9-	29-	34-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	29-	34-	Successfully executed query
+9-	29-	34-	Received rows: 1
+9-	29-	34-	1 	 admin 	 Ali 	 toor
+9-	29-	34-	Going to start session
+9-	29-	34-	Session Already found
+9-	30-	30-	Connected to data base
+9-	30-	30-	Selected Database
+9-	30-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	30-	30-	Successfully executed query
+9-	30-	30-	Received rows: 1
+9-	30-	30-	1 	 admin 	 Ali 	 toor
+9-	30-	30-	Going to start session
+9-	30-	30-	Session Already found
+9-	30-	35-	Connected to data base
+9-	30-	35-	Selected Database
+9-	30-	35-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	30-	35-	Successfully executed query
+9-	30-	35-	Received rows: 1
+9-	30-	35-	1 	 admin 	 Ali 	 toor
+9-	30-	35-	Going to start session
+9-	30-	35-	Session Already found
+9-	38-	1-	Connected to data base
+9-	38-	1-	Selected Database
+9-	38-	1-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	38-	1-	Successfully executed query
+9-	38-	1-	Received rows: 1
+9-	38-	1-	1 	 admin 	 Ali 	 toor
+9-	38-	1-	Going to start session
+9-	38-	1-	Session Already found
+9-	39-	14-	Connected to data base
+9-	39-	14-	Selected Database
+9-	39-	14-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	39-	14-	Successfully executed query
+9-	39-	14-	Received rows: 1
+9-	39-	14-	1 	 admin 	 Ali 	 toor
+9-	39-	14-	Going to start session
+9-	39-	15-	Session Already found
+9-	40-	5-	Connected to data base
+9-	40-	5-	Selected Database
+9-	40-	5-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	40-	5-	Successfully executed query
+9-	40-	5-	Received rows: 1
+9-	40-	5-	1 	 admin 	 Ali 	 toor
+9-	40-	5-	Going to start session
+9-	40-	5-	Session Already found
+9-	41-	11-	Connected to data base
+9-	41-	11-	Selected Database
+9-	41-	11-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	41-	11-	Successfully executed query
+9-	41-	12-	Received rows: 1
+9-	41-	12-	1 	 admin 	 Ali 	 toor
+9-	41-	12-	Going to start session
+9-	41-	12-	Session Already found
+9-	42-	30-	Connected to data base
+9-	42-	30-	Selected Database
+9-	42-	30-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	42-	30-	Successfully executed query
+9-	42-	30-	Received rows: 1
+9-	42-	30-	1 	 admin 	 Ali 	 toor
+9-	42-	30-	Going to start session
+9-	42-	30-	Session Already found
+9-	42-	46-	Connected to data base
+9-	42-	46-	Selected Database
+9-	42-	46-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	42-	46-	Successfully executed query
+9-	42-	46-	Received rows: 1
+9-	42-	46-	1 	 admin 	 Ali 	 toor
+9-	42-	46-	Going to start session
+9-	42-	47-	Session Already found
+9-	43-	1-	Connected to data base
+9-	43-	1-	Selected Database
+9-	43-	1-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	43-	1-	Successfully executed query
+9-	43-	1-	Received rows: 1
+9-	43-	1-	1 	 admin 	 Ali 	 toor
+9-	43-	1-	Going to start session
+9-	43-	1-	Session Already found
+9-	44-	53-	Unable to connect to database
+10-	13-	24-	Connected to data base
+10-	13-	24-	Selected Database
+10-	13-	24-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	13-	24-	Successfully executed query
+10-	13-	24-	Received rows: 1
+10-	13-	25-	1 	 admin 	 Ali 	 toor
+10-	13-	25-	Going to start session
+10-	13-	25-	Session Already found
+10-	14-	57-	Connected to data base
+10-	14-	57-	Selected Database
+10-	14-	57-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	14-	57-	Successfully executed query
+10-	14-	57-	Received rows: 1
+10-	14-	57-	1 	 admin 	 Ali 	 toor
+10-	14-	57-	Going to start session
+10-	14-	58-	Session Already found
+12-	52-	35-	Connected to data base
+12-	52-	35-	Selected Database
+12-	52-	35-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+12-	52-	35-	Successfully executed query
+12-	52-	36-	Received rows: 1
+12-	52-	36-	1 	 admin 	 Ali 	 toor
+12-	52-	36-	Going to start session
+12-	52-	36-	Session Already found
+12-	52-	36-	Values Received at Create Student: 
+12-	52-	36-	 
+12-	52-	36-	 
+12-	52-	37-	BSIT-13-F-131 	 Ali 	 Zahoor 	 admin@vle.iiu.edu.pk 	 2016-01-20 	 Fazal Colony Bnd Road 	 Lahore Pakistan 	 BSIT 	 213000
+12-	52-	37-	Executing Query
+12-	52-	37-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob,profilepic) VALUES (?,?,?,?,?,?,?,?,?,?)
+12-	52-	37-	Failed to insert Values :(
+12-	56-	22-	Connected to data base
+12-	56-	22-	Selected Database
+12-	56-	22-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+12-	56-	23-	Successfully executed query
+12-	56-	23-	Received rows: 1
+12-	56-	23-	1 	 admin 	 Ali 	 toor
+12-	56-	23-	Going to start session
+12-	56-	23-	Session Already found
+12-	56-	23-	Values Received at Create Student: 
+12-	56-	23-	 
+12-	56-	24-	 
+12-	56-	24-	BSIT-13-F-125 	 Ali 	 Zahoor 	 admin@vle.iiu.edu.pk 	 2014-12-30 	 Fazal Colony  	 Bund Road 	 bsit 	 19
+12-	56-	24-	Executing Query
+12-	56-	24-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob,profilepic) VALUES (?,?,?,?,?,?,?,?,?,?)
+12-	56-	24-	Failed to insert Values :(
+1-	0-	23-	Connected to data base
+1-	0-	23-	Selected Database
+1-	0-	23-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+1-	0-	23-	Successfully executed query
+1-	0-	23-	Received rows: 1
+1-	0-	23-	1 	 admin 	 Ali 	 toor
+1-	0-	23-	Going to start session
+1-	0-	24-	Session Already found
+1-	0-	24-	Values Received at Create Student: 
+1-	0-	24-	 
+1-	0-	24-	 
+1-	0-	24-	BSIT-13-F-131 	 Ali 	 Zahoor 	 happyalikhan@gmail.com 	 2012-10-29 	 Fazal Colony  	 Bund road 	 BSIT 	 34234
+1-	0-	24-	Executing Query
+1-	0-	24-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob,profilepic,passwd) VALUES (?,?,?,?,?,?,?,?,?,?,?)
+1-	0-	24-	Failed to insert Values :(
+1-	12-	16-	Connected to data base
+1-	12-	16-	Selected Database
+1-	12-	16-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+1-	12-	16-	Successfully executed query
+1-	12-	16-	Received rows: 1
+1-	12-	17-	1 	 admin 	 Ali 	 toor
+1-	12-	17-	Going to start session
+1-	12-	17-	Session Already found
+1-	12-	17-	Values Received at Create Student: 
+1-	12-	17-	 
+1-	12-	17-	 
+1-	12-	17-	BSIT-13-F-131 	 Ali 	 Zahoor 	 admin@vle.iiu.edu.pk 	 2013-10-27 	 faslkjhaslkhg 	 sakldhfnaksljghkleg 	 bsdf 	 17
+1-	12-	17-	Executing Query
+1-	12-	17-	INSERT INTO loginbaby.student (id, course,totaldues,al1,al2,name,lname,email,dob,profilepic,passwd) VALUES (?,?,?,?,?,?,?,?,?,?,?)
+1-	12-	18-	Failed to insert Values :(
+1-	15-	12-	Connected to data base
+1-	15-	12-	Selected Database
+1-	15-	12-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+1-	15-	12-	Successfully executed query
+1-	15-	12-	Received rows: 1
+1-	15-	12-	1 	 admin 	 Ali 	 toor
+1-	15-	12-	Going to start session
+1-	15-	12-	Session Already found
+1-	17-	18-	Connected to data base
+1-	17-	18-	Selected Database
+1-	17-	18-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+1-	17-	18-	Successfully executed query
+1-	17-	19-	Received rows: 1
+1-	17-	19-	1 	 admin 	 Ali 	 toor
+1-	17-	19-	Going to start session
+1-	17-	19-	Session Already found

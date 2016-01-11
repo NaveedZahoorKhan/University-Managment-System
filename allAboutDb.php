@@ -12,6 +12,7 @@
  * @author WaH33D Khan
  */
 include_once './myloginhere.php';
+include_once './upload.php';
     function filehandle()
     {
         $myfile = fopen("log.txt", "a") or die("unable to open file ");
@@ -66,16 +67,19 @@ include_once './myloginhere.php';
         }
         function startsession($row)
         {
-            if (!isset($_COOKIE['uid']) and !isset($_COOKIE['name']))
+            if (!isset($_COOKIE['uid']) and !isset($_COOKIE['uname']))
             {
                 setcookie("uid",$row['uid']);
-                setcookie("uname",$row['uname']);
+                setcookie("uname",$row['name']);
+                setcookie("name",$row["uname"]);
                 timewrite("Cookies created");
+                myredirect();
                 
             }
-            if (isset($_COOKIE['uid']) and isset($_COOKIE['name']))
+            if (isset($_COOKIE['uid']) and isset($_COOKIE['uname']))
             {
                 timewrite("Session Already found");
+                myredirect();
                 
             }
         }

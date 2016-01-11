@@ -54,13 +54,13 @@
               <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                   <li class="active waves-effect"><a href="#">Home</a></li>
-                  <li><a  class="waves-effect" href="pages/faculty.php">Faculty</a></li>
+                  <li><a  class="waves-effect" href="fac.php">Faculty</a></li>
                   <li class="dropdown">
                     <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Contact US
                       <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/contact.php"><span class="ripple-container"></span>Contact Us</a></li>
-                        <li><a href="pages/aboutus.php" class="waves-effect">About Us</a></li>
+                        <li><a href="contact.php"><span class="ripple-container"></span>Contact Us</a></li>
+                        <li><a href="aboutus.php" class="waves-effect">About Us</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -69,7 +69,7 @@
                  <?php
                     
                   session_start();
-                  if($_COOKIE["uname"]=="admin")
+                  if(isset($_COOKIE["uname"]) and $_COOKIE["name"]=="admin")
                   {
                       ?>
                     <li><a href="firstpage.php">Administration</a></li>
@@ -79,9 +79,9 @@
                         
                     ?>
                     
-                    <li><a href="pages/login.php">Login</a></li>
+                    <li><a href="login.php">Login</a></li>
                      <?php       
-                    }        
+                    }       
                     else if (isset($_COOKIE["uname"])) {
                        
                         ?>
@@ -176,39 +176,49 @@
 <hr>
 <div class="works_item alignleft clear">	
     <div class="carouseller row-fluid for-car"> 
-    <div class="carousel-wrapper"> 
+    <div class="carousel-wrapper" > 
 	<div class="carousel-items"> 
+            <div class="span3 carousel-block">
+                 <div style="margin-top: 60px; width: 60%;margin-left: 20%">
+            <img class="img img-responsive img-thumbnail pull-left" src="image/male-default.png" width="50%">
+            <h3>Faculty 1</h3>
+            <p style="font-size: 10px">
+                Lorem ipsum dolor sit amet, consectetue cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+<hr>
+        </div>
+                </div>
 	<div class="span3 carousel-block">
+            <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-	<div class="span3 carousel-block">
-	<p style="font-size:13px;">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+	 Mr - lfj
+        </p>
         </div>
 	<div class="span3 carousel-block">
-	<p style="font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-	<div class="span3 carousel-block">
+          <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+	 Mr - lfj
+        </p>
+	</div>
+	<div class="span3 carousel-block"> <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
+	<p style="font-size:13px;">
+	 Mr - lfj
+        </p>
 	</div>
 	<div class="span3 carousel-block">
 	<p style="font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>	
 	<div class="span3 carousel-block">
+            <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
+	 Mr - lfj
+        </p>
 	</div>
-	<div class="span3 carousel-block">
+	<div class="span3 carousel-block"> <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-	aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-	</div>
+	 Mr - lfj
+        </p></div>
+        </div>
 	</div>
 	<div class="carousel-control-block">
 	<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
@@ -217,11 +227,10 @@
 	</div>
 	</div>
 <hr>
+
 <div class="panel panel-default animated fadeInLeft" >
 <div class="panel panel-header">
-    <img src="image/news-small.png" alt="unable to load" class="img img-responsive center-block">
-</h1>
-
+    
 </div>
 <div class="panel panel-body">
 <div class="works_item alignleft clear">	
@@ -264,28 +273,32 @@
 </div>
 
 <hr>
-<div class="panel panel-info" style="border-top:black;">
+<div class="panel panel-info" style="background-color: #000\9">
 	<div class="container-fluid">
 	<div class="panel-header">
 		
 	</div>
 
-		<div class="col-sm-4">
+		<div class="col-sm-4 col-md-3">
 			
 		
 		Campus #1
 		<ul class="list-group">
-		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> Garden Town - Lahore Punjab Pakistan</span></li>
-		    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"> (092) 042 - 23342524</span></li>
-		    <li class="list-group-item"><span class="glyphicon glyphicon-envelope	"> info@bzulahore.edu.pk</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> University Address Here</span></li>
+                    <br>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"> (0092) 042 - 123456784</span></li>
+                    <br>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-envelope	"> info@mymailaddress.edu.pk</span></li>
 		    
 		</ul>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-3 col-md-4">
 			Campus #2
 			<ul class="list-group">
-		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> Kot Lakhpat - Lahore Punjab Pakistan	</span></li>
+		    <li class="list-group-item"><span class="glyphicon glyphicon-home"> Second Branch Address 	</span></li>
+                    <br>
 		    <li class="list-group-item"><span class="glyphicon glyphicon-earphone"> (092) 042 - 23342524</span></li>
+                    <br>
 		    <li class="list-group-item"><span class="glyphicon glyphicon-envelope	"> info@bzulahore.edu.pk</span></li>
 		    
 		</ul>
@@ -295,7 +308,8 @@
 			Careers
 			<ul class="list-group">
 				<li class="list-group-item"><span class="glyphicon glyphicon-certificate"><a href="hr@bzulahore.edu.pk"> 	Drop your cv</a></span> </li>
-				<li class="list-group-item"><span class="glyphicon glyphicon-king"><a href=""> Vacancies</a></span></li>
+                                <br>
+                                <li class="list-group-item"><span class="glyphicon glyphicon-king"><a href=""> Vacancies</a></span></li>
 
 
 			</ul>

@@ -7,7 +7,6 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
         <script src="bootstrap/js/jquery.min.js"></script>
         <link href="materialize/css/materialize.css" rel="stylesheet">
         
@@ -18,6 +17,14 @@ and open the template in the editor.
         <script src="script/js/ripples.js"></script>
         <link href="stylesheet/icon.css" rel="stylesheet">
         <script src="bootstrap/js/bootstrap.js"></script>
+        <title>Faculty</title>
+        <style>
+            hr
+            {
+                color: royalblue;
+                background-color: royalblue ;
+            }
+        </style>
     </head>
     <body>
         <div class="bs-component" style="background-color: #00aced">
@@ -71,86 +78,46 @@ and open the template in the editor.
           </div>
         </div>
     
-    <?php
-        if(isset($_COOKIE["uname"]))
-        {
-            $conn = mysql_connect("localhost","root","toor");
-            mysql_select_db("loginbaby");
-            $name = $_COOKIE["uname"];
-            $sql = "SELECT * FROM student WHERE name = \"$name\"";
-           
-            $res = mysql_query($sql);
-            mysql_error();
-            $row = mysql_fetch_array($res);
-            
-        ?>
-        <div class="container">
-            <br>
-            <br><br>
-            <br>
-        
-        <div class="row">
-            <div class="col-md-7 col-sm-3"><h1 style="font-family:Segoe Script"><?php echo (strtoupper($row["name"]) ."\t". strtoupper($row["lname"])); ?></h1></div>
-            
-        <img class="img-circle pull-right img-responsive col-sm-3 col-md-2"  src="<?= $row["profilepic"]; ?>" alt="unable to load">
-        </div>
-       
-        <hr style="background-color: royalblue ;color:royalblue">
-        <div class="row">
-            <div class="col-md-3 pull-left"><h3 class="text-center">ID: <?= $row["sid"] ?></h3></div>
-            
-        </div>
-        <div class="row pull-left">
-            
-            <h3><div class="label-floating">Address : </div>
-                 <div class="label-inverse text-muted">Address Line 1: <?= $row["al1"]; ?>
-                
-                </div>
-                
-                <br>
-                <div class="label-placeholder">Address Line 2: <?= $row["al2"]; ?></div>
-            </h3>
-        </div>
-                
-        <div class="row " style="margin-left: 50%">
-            <h3>
-                <div class="text-warning">
-                    Course : <?= strtoupper($row["course"]); ?>   
-                </div>
-            </h3>
-        </div>
-        <br>
-        
-        <div class="row pull-left">
-            <h3>
-                <div class="text-warning">Total Dues: <?= $row["totaldues"]; ?></div>
-            </h3>
-        </div>
-        <div class="row" style="margin-left: 50%">
-            <h3>
-                <div class="text-uppercase">Session : <?php $year = split("-", $row["session"]);
-                echo $year[0];
-                ?></div>
-            </h3>
-        </div>
-            </div>
-            
-        
-        
-        
+
         
         <?php
+        // put your code here
+        ?>
+        <br>
+        <div style="margin-top: 60px; width: 60%;margin-left: 20%">
+            <img class="img img-responsive img-thumbnail pull-left" src="image/male-default.png" width="20%">
+            <h3>Faculty 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+<hr>
+        </div>
         
-        }
-        else     
-        {
-            header("Location:error.html");
-        }
-            
+        <div style="margin-top: 60px; width: 60%;margin-left: 20%">
+            <img class="img img-responsive img-thumbnail pull-left" src="image/male-default.png" width="20%">
+            <h3>Faculty 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        <hr>    
+        </div>
         
         
- ?>
         
-        
+        <div style="margin-top: 60px; width: 60%;margin-left: 20%">
+            <img class="img img-responsive img-thumbnail pull-left" src="image/male-default.png" width="20%">
+            <h3>Faculty 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <hr>
+        </div><div style="margin-top: 60px; width: 60%;margin-left: 20%">
+            <img class="img img-responsive img-thumbnail pull-left" src="image/male-default.png" width="20%">
+            <h3>Faculty 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+<hr>
+        </div>
     </body>
 </html>
