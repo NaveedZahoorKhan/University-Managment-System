@@ -32,7 +32,7 @@ and open the template in the editor.
               <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li ><a href="index.php">Home</a></li>
-                  <li><a href="faculty.php">Faculty</a></li>
+                  <li><a href="fac.php">Faculty</a></li>
                   <li class="dropdown">
                     <a href="#" data-target="#" class="dropdown-toggle active" data-toggle="dropdown">Contact US
                       <b class="caret"></b></a>
@@ -55,8 +55,8 @@ and open the template in the editor.
                     
                     <li class="dropdown"><a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <?= $_COOKIE["uname"] ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="profile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout </a> </li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
+                            <li class="active"><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout </a> </li>
                         </ul>
                     
                     </li>
@@ -74,8 +74,8 @@ and open the template in the editor.
     <?php
         if(isset($_COOKIE["uname"]))
         {
-            $conn = mysql_connect("localhost","root","toor");
-            mysql_select_db("loginbaby");
+            $conn = mysql_connect("localhost","onlinesa_root","Pak1stan");
+            mysql_select_db("onlinesa_loginbaby");
             $name = $_COOKIE["uname"];
             $sql = "SELECT * FROM student WHERE name = \"$name\"";
            

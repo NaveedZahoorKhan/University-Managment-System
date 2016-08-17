@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include_once './allAboutDb.php';
-$conn = mysql_connect("localhost","root","toor");
+$conn = mysql_connect("localhost","onlinesa_root","Pak1stan");
 if (!$conn) {
     die('Could not connect to MySQL: ' .  mysql_error());
     timewrite("Connecting from delthem.php file");

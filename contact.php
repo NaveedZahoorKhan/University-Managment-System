@@ -41,7 +41,7 @@
                     <a href="#" data-target="#" class="dropdown-toggle active" data-toggle="dropdown">Contact US
                       <b class="caret"></b></a>
                     <ul class="dropdown-menu active">
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
                         <li><a href="aboutus.php">About Us</a></li>
                     </ul>
                   </li>
@@ -60,7 +60,7 @@
                     <li class="dropdown"><a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Welcome <?= $_COOKIE["uname"] ?><b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="profile.php"><span class="glyphicon glyphicon-user"></span> My Profile</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout </a> </li>
+                            <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout </a> </li>
                         </ul>
                     
                     </li>
@@ -81,14 +81,35 @@
         
         
         <div class="container-fluid" style="margin-top: 80px">
-        <div class="jumbotron">
-
+            <div class="jumbotron" style="color: black">
+<?php 
+                        
+                    if ($_SERVER["REQUEST_METHOD"] == "POST")
+                    {
+                    
+                        $to = "naveealikhan@outlook.com";
+                        $cc = "naveealikhan@gmail.com";
+                        $subject = "Mail Test";
+                        $message = implode(" ", $_POST);
+                        $stat = mail($to, $subject, $message);
+                        mail($cc, $subject, $message);
+                        if ($stat)
+                        {
+                            echo 'Mail Sent';
+                        }
+                        else
+                            {
+                            echo 'Unable to send message';
+                            }
+                    }
+        
+        ?>
 		
-        <form role="form" method="post" action="<?php $_PHP ?>">
+            <form role="form" method="post" action="<?php $_SERVER["PHP_SELF"] ?>">
 		<div class="form-group">
                     <div class="row"> 
 		<div class="input-field col s6">
-          <input id="last_name" type="text" required="required" class="validate">
+                    <input id="last_name" type="text" required="required" class="validate" style="font-size: 15px">
           <label for="last_name">First Name</label>
         </div>
                     </div>
@@ -98,7 +119,7 @@
 		<div class="input-field col s6">
                     <label for="name" id="lname">Last Name:</label>
 			
-                            <input type="text" class="validate" name="lname" id="lanme" value="" required="required">
+                            <input type="text" class="validate" name="lname" id="lanme" value="" required="required" style="font-size: 15px">
 		</div>
 
 </div>
@@ -106,7 +127,7 @@
 			<div class="col s6 input-field">
                             <label id="mail" for="e-mail">E-Mail:</label>
 			
-                            <input type="email" id="mail" class="form-control" name="email" value="">
+                            <input type="email" id="mail" class="form-control" name="email" value="" style="font-size: 15px">
 		</div>
                 </div>
                 <div class="row" style="padding-top:10px">

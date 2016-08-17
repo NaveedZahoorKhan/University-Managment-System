@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include_once './allAboutDb.php';
-$con = mysql_connect("localhost","root","toor");
+$con = mysql_connect("localhost","onlinesa_root","Pak1stan");
 mysql_select_db("users");
  $sql = "SELECT * FROM `users` WHERE uname = \"".$_COOKIE["uname"]."\" and passwd = \"".$_POST["oldpass"]."\"";
 $res = mysql_query($sql);

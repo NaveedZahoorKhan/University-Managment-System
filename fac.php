@@ -39,7 +39,7 @@ and open the template in the editor.
               <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li ><a href="index.php">Home</a></li>
-                  <li><a href="faculty.php">Faculty</a></li>
+                    <li class="active"><a href="#">Faculty</a></li>
                   <li class="dropdown">
                     <a href="#" data-target="#" class="dropdown-toggle active" data-toggle="dropdown">Contact US
                       <b class="caret"></b></a>

@@ -6,6 +6,7 @@
     <link href="stylesheet/SuperCSS.css" rel="stylesheet">    
     <script src="script/carouseller.min.js"></script>
     
+    
     <title>My Educational Site</title>
     
       
@@ -41,7 +42,7 @@
         }
     </style>
    
-<body class="animated fadeIn">
+    <body class="animated fadeIn" style="background-color: whitesmoke">
     
           <div class="navbar navbar-primary navbar-fixed-top">
           
@@ -67,7 +68,11 @@
                 <ul class="nav navbar-nav navbar-right">
                    
                  <?php
-                    
+                    /**
+                    * @author Naveed Zahoor
+                    * @author Naveed Zahoor <naveealikhan@gmail.com>
+                    * @version 1.0.1                    
+                     */
                   session_start();
                   if(isset($_COOKIE["uname"]) and $_COOKIE["name"]=="admin")
                   {
@@ -110,7 +115,7 @@
 <!-- Slide Show -->
 
   
-<div id="carousel-example-generic" class="carousel slide" style="margin-top: 60px">
+<div id="carousel-example-generic" class="carousel slide" >
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -172,7 +177,9 @@
 <hr>
 	
 <!-- Inspiration -->
-<img src="image/inspiration-small.png" alt="unable to load" class="img img-thumbnail img-responsive center-block ">
+
+<h1 class="center-block text-center" style="font-family: Georgia, serif">Faculty</h1>
+
 <hr>
 <div class="works_item alignleft clear">	
     <div class="carouseller row-fluid for-car"> 
@@ -191,18 +198,18 @@
 	<div class="span3 carousel-block">
             <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	 Mr - lfj
+	 Mr - IJK
         </p>
         </div>
 	<div class="span3 carousel-block">
           <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	 Mr - lfj
+	 Mr - JKL
         </p>
 	</div>
 	<div class="span3 carousel-block"> <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	 Mr - lfj
+	 Mr - GHI
         </p>
 	</div>
 	<div class="span3 carousel-block">
@@ -211,12 +218,12 @@
 	<div class="span3 carousel-block">
             <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	 Mr - lfj
+	 Mr - CDF
         </p>
 	</div>
 	<div class="span3 carousel-block"> <img src="image/male-default.png" class="img img-thumbnail img-responsive" width="50%">
 	<p style="font-size:13px;">
-	 Mr - lfj
+	 Mr - ABC
         </p></div>
         </div>
 	</div>
@@ -227,6 +234,8 @@
 	</div>
 	</div>
 <hr>
+
+<h1 class="center-block text-center" style="font-family: Georgia, serif">Latest News</h1>
 
 <div class="panel panel-default animated fadeInLeft" >
 <div class="panel panel-header">
@@ -273,6 +282,7 @@
 </div>
 
 <hr>
+
 <div class="panel panel-info" style="background-color: #000\9">
 	<div class="container-fluid">
 	<div class="panel-header">

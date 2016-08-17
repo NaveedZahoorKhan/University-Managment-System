@@ -1,5 +1,5 @@
 <?php
 $db_hostname = 'localhost';
-$db_database = 'loginbaby';
-$db_username = 'root';
-$db_password = 'toor';
+$db_database = 'onlinesa_loginbaby';
+$db_username = 'onlinesa_root';
+$db_password = 'Pak1stan';

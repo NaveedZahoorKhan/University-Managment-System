@@ -20,7 +20,8 @@ and open the template in the editor.
         <script src="script/js/ripples.js"></script>
         
         <script src="materialize/js/materialize.js"></script>
-        <style></style>
+        <style>
+        </style>
         <script>
             $(document).ready(function (){
                 $("#loadhere").load("home.php"); 
@@ -61,12 +62,13 @@ and open the template in the editor.
         </script>
         
         
+        
         </head>
     <body>
        
-        
-        <img class="img-responsive img-thumbnail bg-primary center-block"  src="image/logo.png" alt="" />
-        
+        <a href="index.php">
+            <img class="img-responsive img-thumbnail bg-primary center-block"  src="image/logonew.png" alt="Unable to load" />
+        </a>
         <div class="panel panel-success  col-md-2 col-sm-2 col-xs-1 pull-left ">
             <div class="panel-heading">
                 Navigation

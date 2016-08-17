@@ -195,3 +195,96 @@
 1-	17-	19-	1 	 admin 	 Ali 	 toor
 1-	17-	19-	Going to start session
 1-	17-	19-	Session Already found
+3-	53-	43-	Unable to connect to database
+3-	57-	10-	Connected to data base
+3-	57-	10-	Selected Database
+3-	57-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+3-	57-	10-	Successfully executed query
+3-	57-	10-	Received rows: 0
+3-	57-	10-	 	  	  	 
+3-	57-	10-	Going to start session
+3-	57-	10-	Cookies created
+3-	57-	18-	Connected to data base
+3-	57-	19-	Selected Database
+3-	57-	19-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+3-	57-	19-	Successfully executed query
+3-	57-	19-	Received rows: 0
+3-	57-	19-	 	  	  	 
+3-	57-	19-	Going to start session
+3-	57-	19-	Cookies created
+4-	8-	40-	Connected to data base
+4-	8-	40-	Selected Database
+4-	8-	40-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+4-	8-	40-	Successfully executed query
+4-	8-	40-	Received rows: 1
+4-	8-	40-	1 	 admin 	 Ali 	 toor
+4-	8-	40-	Going to start session
+4-	8-	40-	Cookies created
+4-	20-	14-	Connected to data base
+4-	20-	14-	Selected Database
+4-	20-	14-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+4-	20-	14-	Successfully executed query
+4-	20-	14-	Received rows: 1
+4-	20-	14-	1 	 admin 	 Ali 	 toor
+4-	20-	14-	Going to start session
+4-	20-	15-	Session Already found
+5-	13-	54-	Connected to data base
+5-	13-	54-	Selected Database
+5-	13-	54-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+5-	13-	54-	Successfully executed query
+5-	13-	54-	Received rows: 1
+5-	13-	54-	1 	 admin 	 Ali 	 toor
+5-	13-	54-	Going to start session
+5-	13-	55-	Session Already found
+5-	13-	55-	Destroyed all cookies
+9-	57-	10-	Connected to data base
+9-	57-	10-	Selected Database
+9-	57-	10-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	57-	10-	Successfully executed query
+9-	57-	10-	Received rows: 1
+9-	57-	10-	1 	 admin 	 Ali 	 toor
+9-	57-	10-	Going to start session
+9-	57-	10-	Cookies created
+10-	0-	56-	Connected to data base
+10-	0-	56-	Selected Database
+10-	0-	56-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	0-	56-	Successfully executed query
+10-	0-	56-	Received rows: 1
+10-	0-	56-	1 	 admin 	 Ali 	 toor
+10-	0-	56-	Going to start session
+10-	0-	56-	Session Already found
+10-	0-	56-	Destroyed all cookies
+10-	3-	51-	Connected to data base
+10-	3-	51-	Selected Database
+10-	3-	51-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+10-	3-	51-	Successfully executed query
+10-	3-	51-	Received rows: 1
+10-	3-	51-	1 	 admin 	 Ali 	 toor
+10-	3-	52-	Going to start session
+10-	3-	52-	Cookies created
+9-	16-	9-	Connected to data base
+9-	16-	9-	Selected Database
+9-	16-	9-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	16-	10-	Successfully executed query
+9-	16-	10-	Received rows: 1
+9-	16-	10-	1 	 admin 	 Ali 	 toor
+9-	16-	10-	Going to start session
+9-	16-	10-	Session Already found
+9-	16-	10-	Destroyed all cookies
+9-	37-	59-	Connected to data base
+9-	37-	59-	Selected Database
+9-	37-	59-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	38-	0-	Successfully executed query
+9-	38-	0-	Received rows: 1
+9-	38-	0-	1 	 admin 	 Ali 	 toor
+9-	38-	0-	Going to start session
+9-	38-	0-	Cookies created
+9-	50-	19-	Connected to data base
+9-	50-	19-	Selected Database
+9-	50-	19-	select * from users where uname = "admin" and passwd = "toor" Going to execute
+9-	50-	19-	Successfully executed query
+9-	50-	19-	Received rows: 1
+9-	50-	20-	1 	 admin 	 Ali 	 toor
+9-	50-	20-	Going to start session
+9-	50-	20-	Session Already found
+9-	50-	20-	Destroyed all cookies

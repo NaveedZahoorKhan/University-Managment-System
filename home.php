@@ -12,8 +12,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php 
-        $con = mysql_connect("localhost","root","toor"); 
-        mysql_select_db("loginbaby");
+        $con = mysql_connect("localhost","onlinesa_root","Pak1stan"); 
+        mysql_select_db("onlinesa_loginbaby");
         $q1 =  "SELECT * FROM `student` WHERE doe >= CURRENT_DATE - INTERVAL 1 DAY ";
         $q2 =  "SELECT * FROM `student` WHERE doe > CURRENT_DATE - INTERVAL 1 MONTH ";
         $q3 = "SELECT * FROM `student`";

@@ -40,7 +40,7 @@ include_once './upload.php';
             timewrite("Connected to data base");
             
         }
-        mysql_select_db("loginbaby") or die("Unable to connect to datebase: " . mysql_error());
+        mysql_select_db("onlinesa_loginbaby") or die("Unable to connect to datebase: " . mysql_error());
         timewrite("Selected Database") ;
         db_auth("admin", "toor");
         function db_auth($uname , $pass)

@@ -20,8 +20,8 @@ th {text-align: left;}
  */
 
 
-$con = mysql_connect('localhost','root','toor');
-mysql_select_db("loginbaby");
+$con = mysql_connect('localhost','onlinesa_root','Pak1stan');
+mysql_select_db("onlinesa_loginbaby");
 $mystr = $_GET["q"];
 if($mystr=="d" or $mystr=="")
 {

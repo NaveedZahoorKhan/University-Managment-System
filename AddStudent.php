@@ -75,7 +75,7 @@ $pw = str_shuffle($pw);
                     <input type="text" class="form-control" name="addressl2" placeholder="Address Line 2" >
                     </div>
                         <div class="form-group">
-                            <input type="text" class="text-justify form-control" name="password"  value="<?= $pw ?>" >
+                            <input type="text" class="text-justify form-control" name="password"  value="<?= $pw ?>" disabled="">
                         </div>
                         <div class="form-group">
                             <label>Browse<input type="file" name="filer" class=""></label>

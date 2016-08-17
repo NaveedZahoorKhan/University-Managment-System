@@ -29,9 +29,9 @@
         //timewrite(" ");
        // timewrite("$id \t $name \t $lname \t $email \t $date \t $al1 \t $al2 \t $course \t $dues");
         
-        $q = "INSERT INTO loginbaby.student (sid, course,totaldues,al1,al2,name,lname,email,dob,profilepic,passwd) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
+        $q = "INSERT INTO onlinesa_loginbaby.student (sid, course,totaldues,al1,al2,name,lname,email,dob,profilepic,passwd) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
         
-         $con = new mysqli("localhost","root","toor", "loginbaby");
+         $con = new mysqli("localhost","onlinesa_root","Pak1stan", "onlinesa_loginbaby");
         $query = $con -> prepare($q);
         var_dump($query);
         $res = $query -> bind_param("ssissssssss",$id,$course,$dues,$al1,$al2,$name,$lname,$email,$date,$file,$password);
@@ -48,11 +48,6 @@
             echo mysqli_error($con);
           //  timewrite("Failed to insert Values :(");
             }
-        echo '<br>';
-        echo $id . $name. $al1;
-        echo '<br>';
-        var_dump($res2);
-        echo 'Successfully Inserted Values';
     }
     function uploadfile()
     {
@@ -100,6 +95,7 @@ if ($uploadOk == 0) {
 }
 $directory =  $_FILES["filer"]["name"];
 return $directory;
+
     }
             function createTeacher()
     {
@@ -116,8 +112,8 @@ return $directory;
         $facT = $_POST["facT"];
         
         $salary  = $_POST["salary"];
-        $con = new mysqli("localhost","root","toor", "loginbaby");
-        $q = "INSERT INTO loginbaby.faculty (id, subject,salary,al1,al2,name,lname,email,dob,doj,type,profilepic) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+        $con = new mysqli("localhost","onlinesa_root","Pak1stan", "onlinesa_loginbaby");
+        $q = "INSERT INTO onlinesa_loginbaby.faculty (id, subject,salary,al1,al2,name,lname,email,dob,doj,type,profilepic) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
         $query = $con -> prepare($q);
         var_dump($query);
         $res = $query -> bind_param("ssisssssssss",$id,$subject,$salary,$al1,$al2,$name,$lname,$email,$date,$doj,$facT,$file);
